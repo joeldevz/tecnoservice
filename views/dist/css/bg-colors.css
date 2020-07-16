@@ -1,0 +1,101 @@
+@font-face {
+    font-family: "roboto";
+    src: url("./Roboto-Bold.woff");
+}
+
+.bg-transp{
+    background-color: rgba(0, 0, 0, 0);
+}
+.bg-black{
+    background-color: black;
+}
+.bg-digi-green{
+    background-color: #8BC34B;
+}
+.bg-digi-blue{
+    background-color: #01B1EB !important;
+}
+.bg-digi-mini{
+    background-color: #ECF8FC!important;
+}
+.bg-finetwork{
+    background-color: #ef2052 ;
+}
+.color-blue{
+    color: #01B1EB !important;
+}
+.color-combo5{
+    color: #0075C9;
+}
+.color-combo10{
+    color: #951B81;
+}
+.color-combo15{
+    color: #F18700;
+}
+.color-combo20{
+    color: #D60B52;
+}
+.color-navega{
+    color: #76b72a;
+}
+.color-finetwork{
+    color:#15202b;
+}
+.btn-digi-blue{
+    font-family: 'roboto';
+    color: #fff;
+    background-color: #00b1eb !important;
+    border-color: #00b1eb !important;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+}
+.btn-digi-blue:hover{
+    transform: scale(1.01);
+    color: white;
+}
+.btn-digi-green{
+    font-family: 'roboto';
+    color: #fff;
+    background-color: #8bc34a !important;
+    border-color: #8bc34a !important;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+}
+.btn-digi-green:hover{
+    transform: scale(1.01);
+    color: white;
+}
+.btn-finetwork{
+    color: #fff;
+    background-color: #ef2052 !important;
+    border-color: #ef2052 !important;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+    font-family: 'roboto';
+}
+.btn-finetwork:hover{
+    transform: scale(1.01);
+    color: #000;
+}
+
+.btn-republica{
+    color: #000;
+    background-color: #1aecbc !important;
+    border-color: #1aecbc !important;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+    font-family: 'roboto';
+}
+.btn-republica:hover{
+    transform: scale(1.01);
+    color: white;
+}
+
+.btn-lowi{
+    color: #fff;
+    background-color: #000 !important;
+    border-color: #000 !important;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+    font-family: 'roboto';
+}
+.btn-lowi:hover{
+    transform: scale(1.01);
+    color: #fff;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description"
+        content="🥇 Tecnoservices 🥇 Ofrecemos una variedad de Servicos Reparación móvil, Ordenadores, instalaciones de redes e instalaciones de amplificador de cobertura">
+    <title>TecnoServices 🥇- Ey ¿Quieres pagar menos por tu teléfono e internet? Ponte en contacto con nosotros.
+    </title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="dist/css/main.css">
+    <link rel="stylesheet" href="dist/css/bg-colors.css">
+    <script src="https://kit.fontawesome.com/dc256b1234.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="./dist/js/jquery.cookie.js"></script>
+
+
+    <script src="./dist/js/index.js"></script>
+
+</head>
+
+<body class="p-3" background="#fff">
+    <div class="col-12 ">
+        <div class="row p-3 mb-2" style="border-radius: 6px; border:1px solid black;">
+            <div class="col-6">
+                <div class="  font-weight-bolder font-logo" style="font-size: 40px;">TECNO<span class="font-logo1"style="font-size: 80px;">services</span></div>
+            </div>
+            <div class="col-6 text-right" style="font-size: 25px; font-weight: bolder; ">
+                
+                Prosupuesto Digi   {{date}}
+            </div>
+            <div class="col-6" style="font-size: 18px; font-weight: bolder; ">
+                <p>Telefono: 602 24 32 34</p>
+                <p>Dirección: AVENIDA LOPE DE FIGUEROA,10</p>
+                <p>Dirección: AVENIDAD VALLADOLID,2 C.C.EL VAL LOC.234</p>
+                <p>tienda@tecnoservices.es</p>
+            </div>
+            <div class="col-6">
+                <img src="./dist/img/digi.jpg" class="text-left" alt="" style="    margin-left: 55%;" srcset="">
+            </div>
+        </div>
+        <div class=" p-3 row" style="border-radius: 6px; border:1px solid black;font-size: 25px;" >
+            <div class=" col-6 pt-4 pb-4 mb-2">
+                <b>Nombre:</b> <span id="name">{{name}} </span>
+            </div>
+            <div class=" col-6  pt-4 pb-4 mb-2">
+                <b>Apellido:</b> <span id="surname">{{surname}} </span>
+            </div>
+            <div class="col-6 pt-4 pb-4 mb-4">
+                <b>Direccion:</b> <span id="surname">{{dir}} </span>
+            </div>
+            <div class="col-6 pt-4 pb-4 mb-4">
+                <b>Email:</b> <span id="surname">{{province}} </span>
+            </div>
+            <div class="col-12 pb-5">
+                <h5>Presupuesto</h5>
+                <table class="table">
+                    <tbody id="description" style="font-size: 25px;">
+                        
+                        <tr>
+                            <td class="" style="height: 62.67px;">{{fibra}}</td>
+                            <td >{{pricefri}} </td>
+                        </tr>
+                        <tr>
+                            <td class="" style="height: 62.67px;">{{fijo}}</td>
+                            <td >{{pricefij}} </td>
+                        </tr>
+                        <tr>
+                            <td class="" style="height: 62.67px;">{{M1}}</td>
+                            <td >{{P1}} </td>
+                        </tr>
+                        <tr>
+                            <td class="" style="height: 62.67px;">{{M2}}</td>
+                            <td >{{P2}} </td>
+                        </tr>
+                                                <tr>
+                            <td class="" style="height: 62.67px;">{{M3}}</td>
+                            <td >{{P3}} </td>
+                        </tr>
+                                                <tr>
+                            <td class="" style="height: 62.67px;">{{M4}}</td>
+                            <td >{{P4}} </td>
+                        </tr>
+                        <tr>
+                            <td class="text-right">Total con IVA incluido</td>
+                            <td >{{total}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-12 pt-5">
+                <img src="./dist/img/descarga.png" width="100%" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

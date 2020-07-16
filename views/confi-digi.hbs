@@ -1,0 +1,1047 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="dist/css/main.css">
+    <link rel="stylesheet" href="dist/css/digi.css">
+    <link rel="stylesheet" href="dist/css/bg-colors.css">
+    <meta name="description" content="🥇En Tecnoservices 🥇 Configura tu tarifa como desees.">
+    <title>TecnoServices 🥇- DigiMobile - Configurador de Tarifas </title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KNYLQ0GYRL"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-KNYLQ0GYRL');
+    </script>
+</head>
+
+<body>
+    <header style="background-image: url('dist/img/lope.jpg'); 
+		background-color: #0070a8;
+		background-repeat: no-repeat;
+	    background-position: center;
+		height: 360px;
+		overflow: hidden;
+		">
+        <div class="pt-2 pb-2 navbar-light bg-light sticky-top nav-shadow"
+            style="border-bottom-left-radius: 5px;border-bottom-right-radius: 5px ;">
+            <nav class="navbar navbar-expand-lg container">
+                <a class="navbar-brand  font-weight-bolder font-logo" href="#">TECNO<span
+                        class="font-logo1">services</span></a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto ">
+                        <li class="nav-item">
+                            <a class="nav-link " href="./">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link active" href="./distribudor-digi-oficial">Digi Oficial</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./servicio-tecnico">Servicio Tecnico</a>
+                        </li>
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Lowcost
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="/lowi">Lowi</a>
+                                <a class="dropdown-item" href="/finetwork">Finetwork</a>
+                                <a class="dropdown-item" href="/republica-movil">Republica Móvil</a>
+                                <a class="dropdown-item" href="/distribudor-digi-oficial">DigiMobile</a>
+
+                            </div>
+                        </li>
+
+                        <li class="nav-item ">
+                            <a class="nav-link" href="./abaout">Sobre Nosotros </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="./contacto">Contacto </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="body1">
+        <div class="content m-auto" style="margin-top: -50px!important;">
+            <div>
+                <section class="container mt-5" id="config">
+                    <div class="container text-center p-3">
+                        <h3>Configura la tarifa a tu medida</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-9">
+                            <div class="  tarifa confi roboto ">
+                                <div class="row ">
+                                    <div class="row col-md-6 m-auto">
+                                        <div class="col-lg-12">
+                                            <input type="checkbox" name="" id="checkFibra">
+                                            <label for="checkFibra"><span></span>Fibra en casa</label>
+                                        </div>
+                                        <div class="col-6 col-md-12 col-lg-6">
+                                            <input class="" type="radio" value="fibra1" name="fibra" id="fibra1"
+                                                checked>
+                                            <label class=" tarifa-fibra col-md-12 col-12" for="fibra1">
+                                                <div style="height:50%;top:15%; position:relative">
+                                                    <p class="mr-auto">50 Mb simétricos</p>
+                                                </div>
+                                                <div style="height:50%">
+                                                    <p class="price" id="">25 €</p>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div class="col-6 col-md-12 col-lg-6">
+                                            <input class="" type="radio" value="fibra2" name="fibra" id="fibra2">
+                                            <label class=" tarifa-fibra col-md-12 col-12" for="fibra2">
+                                                <div style="height:50%;top:15%; position:relative">
+                                                    <p class="mr-auto">500 Mb simétricos</p>
+                                                </div>
+                                                <div style="height:50%">
+                                                    <p class="price" id="">30 €</p>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="row col-md-6 m-auto" id="fijo">
+                                        <div class="col-lg-12">
+                                            <input type="checkbox" name="" id="checkfijo">
+                                            <label for="checkfijo"><span></span>Fijo</label> </div>
+                                        <div class="col-6 col-md-12 col-lg-6">
+                                            <input class="" type="radio" value="" name="fijo" id="fijo1" checked>
+                                            <label class=" tarifa-fibra col-md-12 col-12" for="fijo1">
+                                                <div style="height:50%;top:15%; position:relative">
+                                                    <p class="mr-auto">Tarifas por minuto
+                                                        Ilimitadas a DIGI</p>
+                                                </div>
+                                                <div style="height:50%">
+                                                    <p class="price">1 €</p>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div class="col-6 col-md-12 col-lg-6">
+                                            <input class="" type="radio" value="" name="fijo" id="fijo2">
+                                            <label class=" tarifa-fibra  col-md-12 col-12" for="fijo2">
+                                                <div style="height:50%; position:relative">
+                                                    <p class="mr-auto">Ilimitadas nacionales
+                                                        500 minutos internac.</p>
+                                                </div>
+                                                <div style="height:50%">
+                                                    <p class="price"><span id="pricefijo">5</span> €</p>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" tarifa confi roboto " id="mobile1">
+                                <div class="row">
+                                    <div class="row col-md-12 m-auto">
+                                        <div class="row col-lg-12">
+                                            <input type="checkbox" id="checkMobile1">
+                                            <label for="checkMobile1"><span></span>Móvil</label>
+                                        </div>
+                                        <div id="carouselExampleControls" data-touch="true"
+                                            class="carousel slide m-auto col-lg-12">
+
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item   active">
+                                                    <div class="row col-lg-11 m-auto">
+                                                        <div class="col-lg-12">
+                                                            <h3>llamdas ilimitadas</h3>
+                                                        </div>
+                                                        <div class="col-6 col-md-3 col-lg-3">
+                                                            <input class="" type="radio" value="product1" name="movil1"
+                                                                id="movil1-1" checked>
+                                                            <label class=" tarifa-fibra col-md-12 col-12"
+                                                                for="movil1-1">
+                                                                <div style="height:50%; position:relative">
+                                                                    <p class="mr-auto" name="name1"></p>
+                                                                </div>
+                                                                <div style="height:50%">
+                                                                    <p class="price"> <span name="price1"></span>€</p>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="col-6 col-md-3 col-lg-3">
+                                                            <input class="" type="radio" value="product2" name="movil1"
+                                                                id="movil1-2">
+                                                            <label class=" tarifa-fibra  col-md-12 col-12"
+                                                                for="movil1-2">
+                                                                <div style="height:50%; position:relative">
+                                                                    <p class="mr-auto" name="name2">10GB Llamadas
+                                                                        ilimitadas
+                                                                    </p>
+                                                                </div>
+                                                                <div style="height:50%">
+                                                                    <p class="price"> <span name="price2"></span>€</p>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="col-6 col-md-3 col-lg-3">
+                                                            <input class="" type="radio" value="product3" name="movil1"
+                                                                id="movil1-3">
+                                                            <label class=" tarifa-fibra col-md-12 col-12"
+                                                                for="movil1-3">
+                                                                <div style="height:50%; position:relative">
+                                                                    <p class="mr-auto" name="name3">24GB Llamadas
+                                                                        ilimitadas
+                                                                    </p>
+                                                                </div>
+                                                                <div style="height:50%">
+                                                                    <p class="price"> <span name="price3"></span>€</p>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="col-6 col-md-3 col-lg-3">
+                                                            <input class="" type="radio" value="product4" name="movil1"
+                                                                id="movil1-4">
+                                                            <label class=" tarifa-fibra  col-md-12 col-12"
+                                                                for="movil1-4">
+                                                                <div style="height:50%; position:relative">
+                                                                    <p class="mr-auto" name="name4">60GB Llamadas
+                                                                        ilimitadas
+                                                                    </p>
+                                                                </div>
+                                                                <div style="height:50%">
+                                                                    <p class="price"> <span name="price4"></span>€</p>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="row col-lg-11 m-auto">
+                                                        <div class="col-lg-12">
+                                                            <h3>DIGI COMBO</h3>
+                                                        </div>
+                                                        <div class="col-6 col-md-3 col-lg-3">
+                                                            <input class="" type="radio" value="product5" name="movil1"
+                                                                id="movil1-5">
+                                                            <label class=" tarifa-fibra col-md-12 col-12"
+                                                                for="movil1-5">
+                                                                <div style="height:50%; position:relative">
+                                                                    <p class="mr-auto" name="name5">
+                                                                        3GB 100 minutos</p>
+                                                                </div>
+                                                                <div style="height:50%">
+                                                                    <p class="price"><span name="price5"></span>€</p>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="col-6 col-md-3 col-lg-3">
+                                                            <input class="" type="radio" value="product6" name="movil1"
+                                                                id="movil1-6">
+                                                            <label class=" tarifa-fibra  col-md-12 col-12"
+                                                                for="movil1-6">
+                                                                <div style="height:50%; position:relative">
+                                                                    <p class="mr-auto" name="name6">10GB 400minutos</p>
+                                                                </div>
+                                                                <div style="height:50%">
+                                                                    <p class="price"><span name="price6"></span>€</p>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="col-6 col-md-3 col-lg-3">
+                                                            <input class="" type="radio" value="product7" name="movil1"
+                                                                id="movil1-7">
+                                                            <label class=" tarifa-fibra col-md-12 col-12"
+                                                                for="movil1-7">
+                                                                <div style="height:50%; position:relative">
+                                                                    <p class="mr-auto" name="name7">24GB 800minutos</p>
+                                                                </div>
+                                                                <div style="height:50%">
+                                                                    <p class="price"> <span name="price7"></span>€</p>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="col-6 col-md-3 col-lg-3">
+                                                            <input class="" type="radio" value="product8" name="movil1"
+                                                                id="movil1-8">
+                                                            <label class=" tarifa-fibra  col-md-12 col-12"
+                                                                for="movil1-8">
+                                                                <div style="height:50%; position:relative">
+                                                                    <p class="mr-auto" name="name8">60GB 2000 minutos
+                                                                    </p>
+                                                                </div>
+                                                                <div style="height:50%">
+                                                                    <p class="price"><span name="price8"></span>€</p>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+
+                                                    <div class="row col-lg-11 m-auto">
+                                                        <div class="col-lg-12">
+                                                            <h3>NAVEGA</h3>
+                                                        </div>
+                                                        <div class="col-6 col-md-6 m-auto col-lg-3">
+                                                            <input class="" type="radio" value="product9" name="movil1"
+                                                                id="movil1-9">
+                                                            <label class=" tarifa-fibra col-md-12 col-12"
+                                                                for="movil1-9">
+                                                                <div style="height:50%; position:relative">
+                                                                    <p class="mr-auto" name="name9">6GB 0 minutos</p>
+                                                                </div>
+                                                                <div style="height:50%">
+                                                                    <p class="price"><span name="price9"></span>€</p>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="col-6 col-md-6 m-auto col-lg-3">
+                                                            <input class="" type="radio" value="product10" name="movil1"
+                                                                id="movil1-10">
+                                                            <label class=" tarifa-fibra  col-md-12 col-12"
+                                                                for="movil1-10">
+                                                                <div style="height:50%; position:relative">
+                                                                    <p class="mr-auto" name="name10">12GB 0 minutos</p>
+                                                                </div>
+                                                                <div style="height:50%">
+                                                                    <p class="price"><span name="price10"></span>€</p>
+                                                                </div>
+                                                            </label>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <a class="carousel-control-prev" href="#carouselExampleControls"
+                                                role="button" data-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                            <a class="carousel-control-next" href="#carouselExampleControls"
+                                                role="button" data-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" tarifa confi roboto " id="mobile2" style="display:none">
+                                <div class="row">
+                                    <div class="row col-md-12 m-auto">
+                                        <div class="row col-lg-12">
+                                            <input type="checkbox" id="checkMobile2">
+                                            <label for="checkMobile2"><span></span>Móvil</label>
+                                        </div>
+                                        <div id="carouselExampleControls1" data-touch="true"
+                                            class="carousel slide m-auto col-lg-12">
+
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item   active">
+                                                    <div class="row col-lg-11 m-auto">
+                                                        <div class="col-lg-12">
+                                                            <h3>llamdas ilimitadas</h3>
+                                                        </div>
+                                                        <div class="col-6 col-md-3 col-lg-3">
+                                                            <input class="" type="radio" value="product1" name="movil2"
+                                                                id="movil2-1" checked>
+                                                            <label class=" tarifa-fibra col-md-12 col-12"
+                                                                for="movil2-1">
+                                                                <div style="height:50%; position:relative">
+                                                                    <p class="mr-auto" name="name1"></p>
+                                                                </div>
+                                                                <div style="height:50%">
+                                                                    <p class="price"> <span name="price1"></span>€</p>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="col-6 col-md-3 col-lg-3">
+                                                            <input class="" type="radio" value="product2" name="movil2"
+                                                                id="movil2-2">
+                                                            <label class=" tarifa-fibra  col-md-12 col-12"
+                                                                for="movil2-2">
+                                                                <div style="height:50%; position:relative">
+                                                                    <p class="mr-auto" name="name2">10GB Llamadas
+                                                                        ilimitadas
+                                                                    </p>
+                                                                </div>
+                                                                <div style="height:50%">
+                                                                    <p class="price"> <span name="price2"></span>€</p>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="col-6 col-md-3 col-lg-3">
+                                                            <input class="" type="radio" value="product3" name="movil2"
+                                                                id="movil2-3">
+                                                            <label class=" tarifa-fibra col-md-12 col-12"
+                                                                for="movil2-3">
+                                                                <div style="height:50%; position:relative">
+                                                                    <p class="mr-auto" name="name3">24GB Llamadas
+                                                                        ilimitadas
+                                                                    </p>
+                                                                </div>
+                                                                <div style="height:50%">
+                                                                    <p class="price"> <span name="price3"></span>€</p>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="col-6 col-md-3 col-lg-3">
+                                                            <input class="" type="radio" value="product4" name="movil2"
+                                                                id="movil2-4">
+                                                            <label class=" tarifa-fibra  col-md-12 col-12"
+                                                                for="movil2-4">
+                                                                <div style="height:50%; position:relative">
+                                                                    <p class="mr-auto" name="name4">60GB Llamadas
+                                                                        ilimitadas
+                                                                    </p>
+                                                                </div>
+                                                                <div style="height:50%">
+                                                                    <p class="price"> <span name="price4"></span>€</p>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="row col-lg-11 m-auto">
+                                                        <div class="col-lg-12">
+                                                            <h3>DIGI COMBO</h3>
+                                                        </div>
+                                                        <div class="col-6 col-md-3 col-lg-3">
+                                                            <input class="" type="radio" value="product5" name="movil2"
+                                                                id="movil2-5">
+                                                            <label class=" tarifa-fibra col-md-12 col-12"
+                                                                for="movil2-5">
+                                                                <div style="height:50%; position:relative">
+                                                                    <p class="mr-auto" name="name5">
+                                                                        3GB 100 minutos</p>
+                                                                </div>
+                                                                <div style="height:50%">
+                                                                    <p class="price"><span name="price5"></span>€</p>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="col-6 col-md-3 col-lg-3">
+                                                            <input class="" type="radio" value="product6" name="movil2"
+                                                                id="movil2-6">
+                                                            <label class=" tarifa-fibra  col-md-12 col-12"
+                                                                for="movil2-6">
+                                                                <div style="height:50%; position:relative">
+                                                                    <p class="mr-auto" name="name6">10GB 400minutos</p>
+                                                                </div>
+                                                                <div style="height:50%">
+                                                                    <p class="price"><span name="price6"></span>€</p>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="col-6 col-md-3 col-lg-3">
+                                                            <input class="" type="radio" value="product7" name="movil2"
+                                                                id="movil2-7">
+                                                            <label class=" tarifa-fibra col-md-12 col-12"
+                                                                for="movil2-7">
+                                                                <div style="height:50%; position:relative">
+                                                                    <p class="mr-auto" name="name7">24GB 800minutos</p>
+                                                                </div>
+                                                                <div style="height:50%">
+                                                                    <p class="price"> <span name="price7"></span>€</p>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="col-6 col-md-3 col-lg-3">
+                                                            <input class="" type="radio" value="product8" name="movil2"
+                                                                id="movil2-8">
+                                                            <label class=" tarifa-fibra  col-md-12 col-12"
+                                                                for="movil2-8">
+                                                                <div style="height:50%; position:relative">
+                                                                    <p class="mr-auto" name="name8">60GB 2000 minutos
+                                                                    </p>
+                                                                </div>
+                                                                <div style="height:50%">
+                                                                    <p class="price"><span name="price8"></span>€</p>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+
+                                                    <div class="row col-lg-11 m-auto">
+                                                        <div class="col-lg-12">
+                                                            <h3>NAVEGA</h3>
+                                                        </div>
+                                                        <div class="col-6 col-md-6 m-auto col-lg-3">
+                                                            <input class="" type="radio" value="product9" name="movil2"
+                                                                id="movil2-9">
+                                                            <label class=" tarifa-fibra col-md-12 col-12"
+                                                                for="movil2-9">
+                                                                <div style="height:50%; position:relative">
+                                                                    <p class="mr-auto" name="name9">6GB 0 minutos</p>
+                                                                </div>
+                                                                <div style="height:50%">
+                                                                    <p class="price"><span name="price9"></span>€</p>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="col-6 col-md-6 m-auto col-lg-3">
+                                                            <input class="" type="radio" value="product10" name="movil2"
+                                                                id="movil2-10">
+                                                            <label class=" tarifa-fibra  col-md-12 col-12"
+                                                                for="movil2-10">
+                                                                <div style="height:50%; position:relative">
+                                                                    <p class="mr-auto" name="name10">12GB 0 minutos</p>
+                                                                </div>
+                                                                <div style="height:50%">
+                                                                    <p class="price"><span name="price10"></span>€</p>
+                                                                </div>
+                                                            </label>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <a class="carousel-control-prev" href="#carouselExampleControls1"
+                                                role="button" data-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                            <a class="carousel-control-next" href="#carouselExampleControls1"
+                                                role="button" data-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" tarifa confi roboto " id="mobile3" style="display:none">
+                                <div class="row">
+                                    <div class="row col-md-12 m-auto">
+                                        <div class="row col-lg-12">
+                                            <input type="checkbox" id="checkMobile3">
+                                            <label for="checkMobile3"><span></span>Móvil</label>
+                                        </div>
+                                        <div id="carouselExampleControls2" data-touch="true"
+                                            class="carousel slide m-auto col-lg-12">
+
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item   active">
+                                                    <div class="row col-lg-11 m-auto">
+                                                        <div class="col-lg-12">
+                                                            <h3>llamdas ilimitadas</h3>
+                                                        </div>
+                                                        <div class="col-6 col-md-3 col-lg-3">
+                                                            <input class="" type="radio" value="product1" name="movil3"
+                                                                id="movil3-1" checked>
+                                                            <label class=" tarifa-fibra col-md-12 col-12"
+                                                                for="movil3-1">
+                                                                <div style="height:50%; position:relative">
+                                                                    <p class="mr-auto" name="name1"></p>
+                                                                </div>
+                                                                <div style="height:50%">
+                                                                    <p class="price"> <span name="price1"></span>€</p>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="col-6 col-md-3 col-lg-3">
+                                                            <input class="" type="radio" value="product2" name="movil3"
+                                                                id="movil3-2">
+                                                            <label class=" tarifa-fibra  col-md-12 col-12"
+                                                                for="movil3-2">
+                                                                <div style="height:50%; position:relative">
+                                                                    <p class="mr-auto" name="name2">10GB Llamadas
+                                                                        ilimitadas
+                                                                    </p>
+                                                                </div>
+                                                                <div style="height:50%">
+                                                                    <p class="price"> <span name="price2"></span>€</p>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="col-6 col-md-3 col-lg-3">
+                                                            <input class="" type="radio" value="product3" name="movil3"
+                                                                id="movil3-3">
+                                                            <label class=" tarifa-fibra col-md-12 col-12"
+                                                                for="movil3-3">
+                                                                <div style="height:50%; position:relative">
+                                                                    <p class="mr-auto" name="name3">24GB Llamadas
+                                                                        ilimitadas
+                                                                    </p>
+                                                                </div>
+                                                                <div style="height:50%">
+                                                                    <p class="price"> <span name="price3"></span>€</p>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="col-6 col-md-3 col-lg-3">
+                                                            <input class="" type="radio" value="product4" name="movil3"
+                                                                id="movil3-4">
+                                                            <label class=" tarifa-fibra  col-md-12 col-12"
+                                                                for="movil3-4">
+                                                                <div style="height:50%; position:relative">
+                                                                    <p class="mr-auto" name="name4">60GB Llamadas
+                                                                        ilimitadas
+                                                                    </p>
+                                                                </div>
+                                                                <div style="height:50%">
+                                                                    <p class="price"> <span name="price4"></span>€</p>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="row col-lg-11 m-auto">
+                                                        <div class="col-lg-12">
+                                                            <h3>DIGI COMBO</h3>
+                                                        </div>
+                                                        <div class="col-6 col-md-3 col-lg-3">
+                                                            <input class="" type="radio" value="product5" name="movil3"
+                                                                id="movil3-5">
+                                                            <label class=" tarifa-fibra col-md-12 col-12"
+                                                                for="movil3-5">
+                                                                <div style="height:50%; position:relative">
+                                                                    <p class="mr-auto" name="name5">
+                                                                        3GB 100 minutos</p>
+                                                                </div>
+                                                                <div style="height:50%">
+                                                                    <p class="price"><span name="price5"></span>€</p>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="col-6 col-md-3 col-lg-3">
+                                                            <input class="" type="radio" value="product6" name="movil3"
+                                                                id="movil3-6">
+                                                            <label class=" tarifa-fibra  col-md-12 col-12"
+                                                                for="movil3-6">
+                                                                <div style="height:50%; position:relative">
+                                                                    <p class="mr-auto" name="name6">10GB 400minutos</p>
+                                                                </div>
+                                                                <div style="height:50%">
+                                                                    <p class="price"><span name="price6"></span>€</p>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="col-6 col-md-3 col-lg-3">
+                                                            <input class="" type="radio" value="product7" name="movil3"
+                                                                id="movil3-7">
+                                                            <label class=" tarifa-fibra col-md-12 col-12"
+                                                                for="movil3-7">
+                                                                <div style="height:50%; position:relative">
+                                                                    <p class="mr-auto" name="name7">24GB 800minutos</p>
+                                                                </div>
+                                                                <div style="height:50%">
+                                                                    <p class="price"> <span name="price7"></span>€</p>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="col-6 col-md-3 col-lg-3">
+                                                            <input class="" type="radio" value="product8" name="movil3"
+                                                                id="movil3-8">
+                                                            <label class=" tarifa-fibra  col-md-12 col-12"
+                                                                for="movil3-8">
+                                                                <div style="height:50%; position:relative">
+                                                                    <p class="mr-auto" name="name8">60GB 2000 minutos
+                                                                    </p>
+                                                                </div>
+                                                                <div style="height:50%">
+                                                                    <p class="price"><span name="price8"></span>€</p>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+
+                                                    <div class="row col-lg-11 m-auto">
+                                                        <div class="col-lg-12">
+                                                            <h3>NAVEGA</h3>
+                                                        </div>
+                                                        <div class="col-6 col-md-6 m-auto col-lg-3">
+                                                            <input class="" type="radio" value="product9" name="movil3"
+                                                                id="movil3-9">
+                                                            <label class=" tarifa-fibra col-md-12 col-12"
+                                                                for="movil3-9">
+                                                                <div style="height:50%; position:relative">
+                                                                    <p class="mr-auto" name="name9">6GB 0 minutos</p>
+                                                                </div>
+                                                                <div style="height:50%">
+                                                                    <p class="price"><span name="price9"></span>€</p>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="col-6 col-md-6 m-auto col-lg-3">
+                                                            <input class="" type="radio" value="product10" name="movil3"
+                                                                id="movil3-10">
+                                                            <label class=" tarifa-fibra  col-md-12 col-12"
+                                                                for="movil3-10">
+                                                                <div style="height:50%; position:relative">
+                                                                    <p class="mr-auto" name="name10">12GB 0 minutos</p>
+                                                                </div>
+                                                                <div style="height:50%">
+                                                                    <p class="price"><span name="price10"></span>€</p>
+                                                                </div>
+                                                            </label>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <a class="carousel-control-prev" href="#carouselExampleControls2"
+                                                role="button" data-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                            <a class="carousel-control-next" href="#carouselExampleControls2"
+                                                role="button" data-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" tarifa confi roboto " id="mobile4" style="display:none">
+                                <div class="row">
+                                    <div class="row col-md-12 m-auto">
+                                        <div class="row col-lg-12">
+                                            <input type="checkbox" id="checkMobile4">
+                                            <label for="checkMobile4"><span></span>Móvil</label>
+                                        </div>
+                                        <div id="carouselExampleControls3" data-touch="true"
+                                            class="carousel slide m-auto col-lg-12">
+
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item   active">
+                                                    <div class="row col-lg-11 m-auto">
+                                                        <div class="col-lg-12">
+                                                            <h3>llamdas ilimitadas</h3>
+                                                        </div>
+                                                        <div class="col-6 col-md-3 col-lg-3">
+                                                            <input class="" type="radio" value="product1" name="movil4"
+                                                                id="movil4-1" checked>
+                                                            <label class=" tarifa-fibra col-md-12 col-12"
+                                                                for="movil4-1">
+                                                                <div style="height:50%; position:relative">
+                                                                    <p class="mr-auto" name="name1"></p>
+                                                                </div>
+                                                                <div style="height:50%">
+                                                                    <p class="price"> <span name="price1"></span>€</p>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="col-6 col-md-3 col-lg-3">
+                                                            <input class="" type="radio" value="product2" name="movil4"
+                                                                id="movil4-2">
+                                                            <label class=" tarifa-fibra  col-md-12 col-12"
+                                                                for="movil4-2">
+                                                                <div style="height:50%; position:relative">
+                                                                    <p class="mr-auto" name="name2">10GB Llamadas
+                                                                        ilimitadas
+                                                                    </p>
+                                                                </div>
+                                                                <div style="height:50%">
+                                                                    <p class="price"> <span name="price2"></span>€</p>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="col-6 col-md-3 col-lg-3">
+                                                            <input class="" type="radio" value="product3" name="movil4"
+                                                                id="movil4-3">
+                                                            <label class=" tarifa-fibra col-md-12 col-12"
+                                                                for="movil4-3">
+                                                                <div style="height:50%; position:relative">
+                                                                    <p class="mr-auto" name="name3">24GB Llamadas
+                                                                        ilimitadas
+                                                                    </p>
+                                                                </div>
+                                                                <div style="height:50%">
+                                                                    <p class="price"> <span name="price3"></span>€</p>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="col-6 col-md-3 col-lg-3">
+                                                            <input class="" type="radio" value="product4" name="movil4"
+                                                                id="movil4-4">
+                                                            <label class=" tarifa-fibra  col-md-12 col-12"
+                                                                for="movil4-4">
+                                                                <div style="height:50%; position:relative">
+                                                                    <p class="mr-auto" name="name4">60GB Llamadas
+                                                                        ilimitadas
+                                                                    </p>
+                                                                </div>
+                                                                <div style="height:50%">
+                                                                    <p class="price"> <span name="price4"></span>€</p>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="row col-lg-11 m-auto">
+                                                        <div class="col-lg-12">
+                                                            <h3>DIGI COMBO</h3>
+                                                        </div>
+                                                        <div class="col-6 col-md-3 col-lg-3">
+                                                            <input class="" type="radio" value="product5" name="movil4"
+                                                                id="movil4-5">
+                                                            <label class=" tarifa-fibra col-md-12 col-12"
+                                                                for="movil4-5">
+                                                                <div style="height:50%; position:relative">
+                                                                    <p class="mr-auto" name="name5">
+                                                                        3GB 100 minutos</p>
+                                                                </div>
+                                                                <div style="height:50%">
+                                                                    <p class="price"><span name="price5"></span>€</p>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="col-6 col-md-3 col-lg-3">
+                                                            <input class="" type="radio" value="product6" name="movil4"
+                                                                id="movil4-6">
+                                                            <label class=" tarifa-fibra  col-md-12 col-12"
+                                                                for="movil4-6">
+                                                                <div style="height:50%; position:relative">
+                                                                    <p class="mr-auto" name="name6">10GB 400minutos</p>
+                                                                </div>
+                                                                <div style="height:50%">
+                                                                    <p class="price"><span name="price6"></span>€</p>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="col-6 col-md-3 col-lg-3">
+                                                            <input class="" type="radio" value="product7" name="movil4"
+                                                                id="movil4-7">
+                                                            <label class=" tarifa-fibra col-md-12 col-12"
+                                                                for="movil4-7">
+                                                                <div style="height:50%; position:relative">
+                                                                    <p class="mr-auto" name="name7">24GB 800minutos</p>
+                                                                </div>
+                                                                <div style="height:50%">
+                                                                    <p class="price"> <span name="price7"></span>€</p>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="col-6 col-md-3 col-lg-3">
+                                                            <input class="" type="radio" value="product8" name="movil4"
+                                                                id="movil4-8">
+                                                            <label class=" tarifa-fibra  col-md-12 col-12"
+                                                                for="movil4-8">
+                                                                <div style="height:50%; position:relative">
+                                                                    <p class="mr-auto" name="name8">60GB 2000 minutos
+                                                                    </p>
+                                                                </div>
+                                                                <div style="height:50%">
+                                                                    <p class="price"><span name="price8"></span>€</p>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+
+                                                    <div class="row col-lg-11 m-auto">
+                                                        <div class="col-lg-12">
+                                                            <h3>NAVEGA</h3>
+                                                        </div>
+                                                        <div class="col-6 col-md-6 m-auto col-lg-3">
+                                                            <input class="" type="radio" value="product9" name="movil4"
+                                                                id="movil4-9">
+                                                            <label class=" tarifa-fibra col-md-12 col-12"
+                                                                for="movil4-9">
+                                                                <div style="height:50%; position:relative">
+                                                                    <p class="mr-auto" name="name9">6GB 0 minutos</p>
+                                                                </div>
+                                                                <div style="height:50%">
+                                                                    <p class="price"><span name="price9"></span>€</p>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="col-6 col-md-6 m-auto col-lg-3">
+                                                            <input class="" type="radio" value="product10" name="movil4"
+                                                                id="movil4-10">
+                                                            <label class=" tarifa-fibra  col-md-12 col-12"
+                                                                for="movil4-10">
+                                                                <div style="height:50%; position:relative">
+                                                                    <p class="mr-auto" name="name10">12GB 0 minutos</p>
+                                                                </div>
+                                                                <div style="height:50%">
+                                                                    <p class="price"><span name="price10"></span>€</p>
+                                                                </div>
+                                                            </label>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <a class="carousel-control-prev" href="#carouselExampleControls3"
+                                                role="button" data-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                            <a class="carousel-control-next" href="#carouselExampleControls3"
+                                                role="button" data-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 ">
+                            <div class=" tarifa border-combo20">
+                                <div class="tarifa-sub">
+                                    Cuota mensual total
+                                </div>
+                                <div class="gigas color-combo20" id="total">
+                                    0€
+                                </div>
+                                <div class="tarifa-bol color-combo20 font-weigh-bolder">
+                                    SIN TRUCOS
+                                </div>
+                                <div>
+                                    <table class="table">
+                                        <tbody id="description">
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <button class="btn btn-digi-blue" id="descargar" data-toggle="modal"
+                                    data-target="#exampleModal" disabled>
+                                    <div class="spinner-grow text-light" role="status" id="load">
+                                        <span class="sr-only">Loading...</span>
+                                    </div> Descargar Oferta
+                                </button>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Descargar oferta</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h5>Campos opcionales</h5>
+                    <div class="row">
+                        <div class="input-group mb-3 col-lg-6">
+                            <input type="text" class="form-control" placeholder="Nombre" id="name"
+                                aria-describedby="basic-addon1">
+                        </div>
+                        <div class="input-group mb-3 col-lg-6">
+                            <input type="text" class="form-control" placeholder="Apellidos" id="surname"
+                                aria-describedby="basic-addon1">
+                        </div>
+                        <div class="input-group mb-3 col-lg-6">
+                            <input type="text" class="form-control" placeholder="Email" id="province"
+                                aria-describedby="basic-addon1">
+                        </div>
+                        <div class="input-group mb-3 col-lg-6" hidden>
+                            <input type="text" class="form-control" placeholder="CP" id="cp"
+                                aria-describedby="basic-addon1">
+                        </div>
+                        <div class="input-group mb-3 col-lg-12">
+                            <input type="text" class="form-control" placeholder="Dirección" id="dir"
+                                aria-describedby="basic-addon1">
+                        </div>
+                        <div class="row col-lg-10 m-auto">
+                            <textarea name="" id="" whidht="100%" height="10px" class="form-control text-center"
+                                disabled>CONSENTIMIENTO PARA EL TRATAMIENTO DE DATOS PERSONALES
+Federico FSantonja Rivers es el Responsable del tratamiento de los datos personales del usuario y
+le informa de que estos datos se tratarán de conformidad con lo dispuesto en el Reglamento (UE)
+2016/679, de 27 de abril (GDPR), y la Ley Orgánica 3/2018, de 5 de diciembre (LOPDGDD), por lo que
+se le facilita la siguiente información del tratamiento:
+Fines y legitimación del tratamiento: mantener una relación comercial (por interés legítimo del
+responsable, art. 6.1.f GDPR) y el envío de comunicaciones de productos o servicios (por
+consentimiento del interesado, art. 6.1.a GDPR).
+Criterios de conservación de los datos: se conservarán durante no más tiempo del necesario para
+mantener el fin del tratamiento o mientras existan prescripciones legales que dictaminen su custodia y
+cuando ya no sea necesario para ello, se suprimirán con medidas de seguridad adecuadas para
+garantizar la anonimización de los datos o la destrucción total de los mismos.
+Comunicación de los datos: no se comunicarán los datos a terceros, salvo obligación legal.
+Derechos que asisten al usuario: derecho a retirar el consentimiento en cualquier momento. Derecho
+de acceso, rectificación, portabilidad y supresión de sus datos, y de limitación u oposición a su
+tratamiento. Derecho a presentar una reclamación ante la Autoridad de control (www.aepd.es) si
+considera que el tratamiento no se ajusta a la normativa vigente.
+Datos de contacto para ejercer sus derechos: info@Tecnoservices.es.</textarea>
+                            <div class="col-lg-12 m-auto">
+                                <input type="checkbox" id="politica">
+                                <label for="politica"><span></span>
+                                    <a class="" style="font-size: 15px;">He leido y
+                                        Acepto el Consentimiento de Datos </p>
+                                </label>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" onclick="Pregeneratepdf()"
+                        data-dismiss="modal">Descargar
+                        Oferta</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container m-auto">
+        <div class=" row">
+            <div class="col-lg-6 col-12">
+                <a href="./politica-privacidad" target="_blank" rel="noopener noreferrer">POLÍTICA</a> | <a
+                    href=".//avisolegal">AVISO
+                    LEGAL</a> | <a href="./politica-cookies" target="_blank" rel="noopener noreferrer">COOKIES</a>
+            </div>
+            <div class="col-lg-6 col-12 text-right">
+                © 2020, realizado por <a href="https://joeldev.es">JOELDEV</a> para una mejor web
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./dist/js/alertify/css/alertify.min.css">
+    <link rel="stylesheet" href="./dist/js/alertify/css/themes/default.min.css">
+    <script src="./dist/js/alertify/alertify.min.js"></script>
+    <script src="./dist/js/jquery.cookie.js"></script>
+    <script src="./dist/js/index.js"></script>
+    <script src="./dist/js/digi.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,105 @@
+.fijocheck input[type="checkbox"] {
+    display: none;
+
+    -webkit-appearance: none;
+}
+
+.fijocheck label{
+    height: 10px !important;
+    padding-left: 1.3em;
+    position: relative;
+}
+.fijocheck label::before{
+    content: " ";
+    border: 1px solid black;
+    width: 1em;
+    height: 1em;
+    position: absolute;
+    left: 0px;
+}
+.fijocheck [type="checkbox"]:checked +label::before{
+    border:none;
+    content:url(../icon/check-solid.svg);
+    font-size: 30px;
+}
+.inputDisabled{
+    background-color: #aaabac83!important;
+    color: rgb(68, 68, 68)!important;
+
+}
+
+input[type="radio"] {
+    -webkit-appearance: none;
+}
+
+label {
+    border-radius: 6px;
+    width: 100%;
+    height: 120px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+input[type="radio"]:checked+label {
+    color: #ffffff !important;
+    background-color: #00b1eb;
+}
+
+input[type="radio"]:checked+label .price {
+    color: yellow !important;
+}
+
+input[type="radio"]:checked+label .data {
+    color: #ffffff !important;
+}
+.confi .price{
+    font-size: 35px;
+    color: #007cbf!important;
+}
+/*carrusel*/
+.carousel-control-next-icon {
+    background-image: url(../icon/arrow-circle-right-solid.svg)!important;
+}
+.carousel-control-prev-icon {
+    background-image: url(../icon/arrow-circle-left-solid.svg)!important;
+}
+
+ input[type="checkbox"] {
+	display: none;
+}
+input[type="checkbox"] + label {
+    height: 100% !important;
+    font-size: 40px;
+
+}
+ input[type="checkbox"] + label span {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	margin: -1px 4px 0 0;
+	vertical-align: middle;
+	background: url(../img/checkbox-uncheck.png);
+	background-size: cover;
+	cursor: pointer;
+}
+ input[type="checkbox"]:checked + label span {
+	background: url(../img/checkbox-check.png);
+	background-size: cover;
+}
+header .btn {
+    position: relative; left:45%; top:150px
+}
+@media only screen and (max-width: 767px) {
+    .body1 {
+        margin: 20px 0px 0px;
+    }
+    .body1 .content {
+        border-radius: 0px !important;
+    }
+    .fibra {
+        border: 2px solid #15202b !important;
+    }
+    header .btn {
+        position: relative; left:35%; top:200px
+    }
+}

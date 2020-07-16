@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<title>Título</title>
+</head>
+<body>
+<div class="container">
+  <div class="row">
+      <div class="col-md-12">
+        <div class="form-group">
+            <label for="exampleFormControlFile1">URL</label>
+            <input class="form-control" type="text" id="txtUrl" placeholder="http://">
+        </div>      
+      </div>  
+      <div class="col-md-12">
+         <button type="button" id="btnExport" class="btn btn-success">Exportar a excel</button>
+      </div>  
+    </div>
+ </div>
+</body>
+</html>
+<script>
+var overlayEstradaWebGroup = '<div class="overlayEstradaWebGroup"><img src="https://loading.io/spinners/bricks/lg.block-rotate-loading-gif.gif"/></div>';
+$("#btnExport").click(function(){
+  firmar();
+})
+
+function firmar() {
+  $("body").append(overlayEstradaWebGroup);
+            var dataJSON = {Pdf: "",Url: $("#txtUrl").val(),CabeceraPDFUrl: "",PiedePaginaPDFUrl: "",Orientation:true};
+            $.ajax({
+                type: 'POST',
+                url: 'https://estradawebgroup.com/api/ConvertirPDF/GenerarPDF', 
+                data: JSON.stringify(dataJSON),
+                contentType: 'application/json; charset=utf-8', 
+                dataType: 'json',
+                success: function (data, textStatus, xhr) {
+                  console.log(data);
+                  // Insert a link that allows the user to download the PDF file
+                  var link = document.createElement('a');
+                  link.innerHTML = 'Download PDF file';
+                  link.download = 'file.pdf';
+                  link.href = 'data:application/pdf;base64,' + data.archivo; 
+                  //document.body.appendChild(link);
+                  $(".container").append(link)
+                  $(".overlayEstradaWebGroup").remove();
+                  
+                   // window.open("data:application/pdf;base64, " + data.archivo);
+                   // var sampleArr = base64ToArrayBuffer(data.archivo);
+                    //saveByteArray("download doc firmado", sampleArr);
+                },
+                error: function (xhr, textStatus, errorThrown) {
+                  console.log('Error in Operation');
+                  $(".overlayEstradaWebGroup").remove();
+                }
+            }); 
+}
+
+</script>

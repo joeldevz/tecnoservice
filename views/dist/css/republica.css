@@ -1,0 +1,162 @@
+@media only screen and (max-width: 767px) {
+    .body1 {
+        margin: 20px 0px 0px;
+    }
+    .body1 .content {
+        border-radius: 0px !important;
+    }
+    .fibra {
+        border: 2px solid #15202b !important;
+    }
+    .product {
+        padding-left: 0px !important;
+    }
+
+}
+
+.product {
+    padding-left: 20px;
+}
+
+.roboto-slab {
+    font-family: 'Roboto Slab' !important;
+}
+
+.fibra {
+    padding: 2rem;
+    border: 2px solid #fff !important;
+    border-radius: 5PX!important;
+    background-color: #fff;
+    color: #15202b!important;
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.tarifa-precio {
+    font-family: 'Roboto Slab';
+    font-weight: lighter;
+    color: #000!important;
+}
+.gigas{
+    color: #16c7a3 !important;
+
+}
+.tarifa-fibra {
+    width: 100%;
+    color: rgba(0, 0, 0, 0.603) !important;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    background-color: #F5F5F5;
+    font-size: 15px;
+}
+
+.tarifa-fibra-fibra {
+    width: 100%;
+    font-family: 'roboto';
+    color: rgba(0, 0, 0, 0.603) !important;
+    padding-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #FEF6E7;
+    font-size: 20px;
+}
+
+.llamada {
+    background-color: #E2ECC0;
+    margin-top: 20px !important;
+    font-size: 20px;
+}
+
+.llamada span {
+    color: #8DA43C;
+    font-size: 55px;
+}
+
+.llamada:hover {
+    border: none!important;
+}
+
+.btn-lowi-contr {
+    color: #fff;
+    border-radius: 6px;
+    align-items: center;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    background-color: #16c7a3 !important;
+    border-color: #16c7a3 !important;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    font-family: 'roboto';
+}
+
+.tarifa-fibra .down {
+    position: relative;
+    top: 15px;
+}
+
+.tarifa-fibra:hover {
+    border: 0px solid #8DA43C;
+}
+
+input[type="radio"] {
+    -webkit-appearance: none;
+}
+
+label {
+    border-radius: 6px;
+    width: 100%;
+    position: relative;
+    transition: 0.5s;
+}
+
+input[type="radio"]:checked+label {
+    color: #ffffff !important;
+    background-color: #000;
+}
+
+input[type="radio"]:checked+label .price-int {
+    color: #ffffff !important;
+}
+
+input[type="radio"]:checked+label .data {
+    color: #ffffff !important;
+}
+
+
+.price-int {
+    font-weight: bold;
+    color: black;
+}
+
+.data {
+    font-weight: 500;
+    color: black;
+}
+
+.product .voice {
+    color: #823283;
+    font-size: 17px;
+}
+
+.product .name {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.product2 .name {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.price-int{
+    font-size: 20px;
+}
+.product2 .voice {
+    font-size: 17px;
+
+    color: #16c7a3;
+}
+
