@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon ./src",
+    "dev": "nodemon ./src/index.js",
     "start": "pm2 start ./src/index.js --name tecnoservices"
   },
   "keywords": [],
@@ -15,7 +15,7 @@
     "body-parser": "^1.19.0",
     "cookies": "^0.8.0",
     "express": "^4.17.1",
-    "hbs": "^4.1.0",
+    "hbs": "^4.1.1",
     "mongoose": "^5.9.0",
     "node-cron": "^2.0.3",
     "nodemailer": "^6.4.5",
